@@ -3,6 +3,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  
 }
 
 *:before, *:after {
@@ -12,21 +13,31 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
   font-size: 16px;
   line-height: 1.71429;
+  height: 3682px;
+  background: white;
+  
+
 }
 
 img {
   vertical-align: middle;
+  
 }
 
 .container {
-  width: 1200px;
+  width: 1349px;
+  height: 99px;
+  margin-top: 0;
   margin-right: auto;
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
+  background: white;
+  position: fixed;
+  
 }
 
 .container:before, .container:after {
@@ -59,6 +70,10 @@ img {
 a {
   color: #373B47;
   text-decoration: none;
+  margin-left: 3em;
+  margin-right: 2em; 
+  line-height: 70px;
+  
 }
 
 a:hover {
@@ -66,8 +81,223 @@ a:hover {
 }
 
 .text-uppercase {
+  font-family: 'Raleway';
+  font-weight: bold;
+  text-align: center;
   text-transform: uppercase;
 }
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 550px;
+
+}
+
+.container a:first-child{
+  margin-left: 10em;
+
+}
+.container div{
+  margin-top: 10px;
+}
+/*colocar imagen de fondo... con la ruta */
+.section-first{
+  background-image: url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1349px;
+  height: 650px;
+  /*margin-top: 50px;*/
+    
+}
+/*modificación de texto del container1*/
+.container1 h2{
+  padding-top: 150px;
+  color: white;
+  margin: 0;
+}
+.container1 h1{
+  /*padding-top: 70px;*/
+  font-size: 50px;
+  color: white;
+}
+.container1 p{
+  padding-top: 10px;
+  color: white;
+}
+
+/*modificar solo cuadrado de view*/
+.view{
+  font-family: 'Raleway';
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 600px;
+  margin-top: 80px;
+  width: 149px;
+  height: 49px;
+  background: #2ecc71;
+  color: white;
+  line-height: 50px;
+  
+}
+/*colocar fondo de la segunda parte*/
+.section-second{
+  background:#f17c72;
+  width: 1349px;
+  height: 668px;
+  margin: 0;
+    
+}
+/*eliminando margen para que desaparezca las imagenes de, detras de el menu fijo*/
+.section-second div{
+  margin: 0;
+}
+.section-second h2{
+  padding-top: 86px;
+  font-size: 26px;
+  color: white;
+  margin: 0;
+
+}
+.section-second h4{
+  padding-top: 35px;
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 17px;
+  text-align: center;
+  color: white;
+
+}
+
+/*se aplico un id a la primera imagen ya que tiene margenes distintos del resto*/
+#imagen1{
+  width: 199px;
+  height: 199px;
+  margin-top: 83px; 
+  margin-left : 210px;
+
+}
+/*resto de las imagenes*/
+.imagen{
+  width: 199px;
+  height: 199px;
+  margin-top: 83px;
+  margin-left: 169px;
+}
+
+h5 {
+  width: 162px;
+  font-size: 13px;
+  margin-top: 15px; 
+  margin-bottom: 0;
+  color: white;
+}
+/*modificacion de caja de contenido*/
+.section-second .container2{
+  display: inline-block;
+  margin-left: 198px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*se aplico un id a la primera imagen ya que tiene margenes distintos del resto*/
+#dos{
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 225px;
+  text-align: center;
+  font-family: 'Raleway';
+  color: white;
+}
+
+h6{
+  width: 170px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Raleway';
+  color: white;
+}
+
+.section-third {
+  width: 1349px;
+  height: 2500px;
+  
+}
+/*modificación de la imagen del computador*/
+.ima-compu{
+  width: 905px;
+  margin-top: 40px;
+  margin-left: 220px;
+  
+}
+.section-third h2{
+  padding-top: 50px;
+  font-size: 29px;
+  
+}
+.section-third h4{
+  padding-top: 10px;
+  font-family: 'Raleway';
+  text-align: center;
+  
+}
+/*resto de imagenes de productos que tienen margenes parecidos*/
+.products{
+  width: 300px;
+  height: 250px;
+  margin-top: 22px;
+  margin-left: 73px;
+
+}
+/*clase para imagenes de productos que estan al margen izquierdo*/
+.products1{
+  width: 300px;
+  height: 250px;
+  margin-top: 22px;
+  margin-left: 146px;
+}
+/*lista para colocar los nombres a los productos*/
+li{
+  display: inline-block;
+  font-family: 'Raleway';
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-left: 190px;
+
+}
+/*clase para modificar el primero de la lista que esta al margen */
+.num1{
+  display: inline-block;
+  font-family: 'Raleway';
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-left: 160px;
+}
+
+footer{
+  height: 71px;
+  background: #373b47;
+  
+}
+footer p{
+  font-family: 'Raleway';
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+}
+
+
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 

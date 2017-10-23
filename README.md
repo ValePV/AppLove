@@ -58,3 +58,13 @@ Este reto sera evaluado sobre lo siguiente:
 - Estructura de tus archivos
 - Archivo `README.md` actualizado y correctamente redactado
 - Uso de comentarios para hacer tu código más legible
+
+## Pasos seguidos 
++ Nombrar las clases necesarias para identificar partes de la maqueta
++ Colocar imagenes de fondo con su respectiva ruta
++ Enlasar links de fuente requerida y aplicar a los textos
++ Modificar dimensión y color de las funtes requeridas
++ Insertar imagenes con respectivas rutas, modificar dimensiones y colocación en el espacio
++ Cuadrar texto con las imagenes
++ Insertar imagenes de productos con respectivas rutas, modificar dimensiones, cuadrar con textos.
++ Modificar fondo y fuente de pie de página
