@@ -108,22 +108,25 @@ a:hover {
   background-size: cover;
   width: 1349px;
   height: 650px;
+  /*padding-top: 100px;*/
   /*margin-top: 50px;*/
     
 }
 /*modificación de texto del container1*/
 .container1 h2{
-  padding-top: 150px;
+  padding-top: 170px;
   color: white;
   margin: 0;
 }
 .container1 h1{
   /*padding-top: 70px;*/
+  margin-bottom: 0; 
   font-size: 50px;
   color: white;
 }
 .container1 p{
-  padding-top: 10px;
+  /*padding-top: 10px;*/
+  margin-top: 0; 
   color: white;
 }
 
